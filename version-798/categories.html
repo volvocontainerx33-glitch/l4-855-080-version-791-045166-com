@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>分类总览-精选影片片单</title>
+  <meta name="description" content="精选影片片单分类总览，按热门、口碑、新片和多类型片单浏览高清电影片库">
+  <meta name="keywords" content="精选影片片单,热门影片,高清电影片库,电影点播,高分电影,电影推荐,影片合集">
+  <meta name="renderer" content="webkit">
+  <meta name="applicable-device" content="pc,mobile">
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-sm">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16 md:h-20">
+      <a href="./index.html" class="flex items-center space-x-2 group" aria-label="精选影片片单">
+        <span class="site-logo-mark">影</span>
+        <span class="flex flex-col">
+          <span class="text-lg md:text-xl font-bold text-gray-900 leading-tight">精选影片片单</span>
+          <span class="text-xs text-gray-600 leading-tight hidden sm:block">高清电影片库</span>
+        </span>
+      </a>
+      <nav class="hidden md:flex items-center space-x-8">
+          <a href="./index.html" class="text-gray-700 hover:text-amber-700 font-medium transition-colors">首页</a>
+          <a href="./categories.html" class="nav-link-active font-medium transition-colors">分类</a>
+          <a href="./ranking.html" class="text-gray-700 hover:text-amber-700 font-medium transition-colors">排行榜</a>
+          <a href="./category-featured-list.html" class="text-gray-700 hover:text-amber-700 font-medium transition-colors">精选片单</a>
+          <a href="./category-hot-streaming.html" class="text-gray-700 hover:text-amber-700 font-medium transition-colors">热门点播</a>
+          <a href="./category-top-rated.html" class="text-gray-700 hover:text-amber-700 font-medium transition-colors">高分推荐</a>
+          <a href="./category-new-release.html" class="text-gray-700 hover:text-amber-700 font-medium transition-colors">新片速看</a>
+      </nav>
+      <div class="hidden md:flex items-center space-x-4">
+        <form action="./search.html" method="get" class="relative">
+          <input type="search" name="q" placeholder="搜索影片..." class="w-48 lg:w-64 px-4 py-2 pl-10 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all">
+          <span class="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400">⌕</span>
+        </form>
+      </div>
+      <button type="button" data-menu-toggle class="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors" aria-expanded="false" aria-label="打开导航">☰</button>
+    </div>
+    <div data-mobile-menu class="hidden md:hidden py-4 border-t border-gray-200">
+      <nav class="flex flex-col space-y-3">
+            <a href="./index.html" class="text-gray-700 hover:text-amber-700 font-medium py-2 transition-colors">首页</a>
+            <a href="./categories.html" class="nav-link-active font-medium py-2 transition-colors">分类</a>
+            <a href="./ranking.html" class="text-gray-700 hover:text-amber-700 font-medium py-2 transition-colors">排行榜</a>
+            <a href="./category-featured-list.html" class="text-gray-700 hover:text-amber-700 font-medium py-2 transition-colors">精选片单</a>
+            <a href="./category-hot-streaming.html" class="text-gray-700 hover:text-amber-700 font-medium py-2 transition-colors">热门点播</a>
+            <a href="./category-top-rated.html" class="text-gray-700 hover:text-amber-700 font-medium py-2 transition-colors">高分推荐</a>
+            <a href="./category-new-release.html" class="text-gray-700 hover:text-amber-700 font-medium py-2 transition-colors">新片速看</a>
+        <form action="./search.html" method="get" class="pt-2">
+          <div class="relative">
+            <input type="search" name="q" placeholder="搜索影片..." class="w-full px-4 py-2 pl-10 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent transition-all">
+            <span class="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400">⌕</span>
+          </div>
+        </form>
+      </nav>
+    </div>
+  </div>
+</header>
+<main>
+<section class="bg-gradient-to-r from-amber-600 to-orange-600 text-white py-12">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 class="text-3xl md:text-4xl font-bold mb-3">分类总览</h1>
+    <p class="text-lg text-amber-50">按精选片单浏览完整电影片库，继续进入详情页在线观看。</p>
+  </div>
+</section>
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+    <a href="./category-featured-list.html" class="category-cover group soft-card rounded-xl overflow-hidden hover:shadow-xl transition-all transform hover:-translate-y-1">
+  <div class="relative overflow-hidden" style="padding-top:56.25%">
+    <img src="./3.jpg" alt="精选片单" class="absolute top-0 left-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <h2 class="absolute bottom-3 left-4 right-4 text-xl font-bold text-white">精选片单</h2>
+  </div>
+  <div class="p-5">
+    <p class="text-gray-600 text-sm mb-4 line-clamp-3">从片库中精选不同题材与地区的热门作品，适合快速发现值得点播的影片</p>
+    <ul class="space-y-2 text-sm text-gray-700">
+      <li><a href="./movie-0003.html" class="hover:text-amber-700 transition-colors">梅费尔行动</a></li><li><a href="./movie-0010.html" class="hover:text-amber-700 transition-colors">色欲和尚</a></li><li><a href="./movie-0013.html" class="hover:text-amber-700 transition-colors">沙尘少爷</a></li><li><a href="./movie-0014.html" class="hover:text-amber-700 transition-colors">潜艇突击战</a></li>
+    </ul>
+    <span class="mt-5 inline-flex px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white font-medium rounded-lg transition-colors">查看片单</span>
+  </div>
+</a><a href="./category-hot-streaming.html" class="category-cover group soft-card rounded-xl overflow-hidden hover:shadow-xl transition-all transform hover:-translate-y-1">
+  <div class="relative overflow-hidden" style="padding-top:56.25%">
+    <img src="./2.jpg" alt="热门点播" class="absolute top-0 left-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <h2 class="absolute bottom-3 left-4 right-4 text-xl font-bold text-white">热门点播</h2>
+  </div>
+  <div class="p-5">
+    <p class="text-gray-600 text-sm mb-4 line-clamp-3">聚合当前更受关注的影视内容，涵盖电影、剧集、动画与综艺等类型</p>
+    <ul class="space-y-2 text-sm text-gray-700">
+      <li><a href="./movie-0002.html" class="hover:text-amber-700 transition-colors">巴黎换换爱</a></li><li><a href="./movie-0018.html" class="hover:text-amber-700 transition-colors">我们的幸福时光</a></li><li><a href="./movie-0021.html" class="hover:text-amber-700 transition-colors">为母复仇</a></li><li><a href="./movie-0026.html" class="hover:text-amber-700 transition-colors">大西洋帝国第三季</a></li>
+    </ul>
+    <span class="mt-5 inline-flex px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white font-medium rounded-lg transition-colors">查看片单</span>
+  </div>
+</a><a href="./category-top-rated.html" class="category-cover group soft-card rounded-xl overflow-hidden hover:shadow-xl transition-all transform hover:-translate-y-1">
+  <div class="relative overflow-hidden" style="padding-top:56.25%">
+    <img src="./4.jpg" alt="高分推荐" class="absolute top-0 left-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <h2 class="absolute bottom-3 left-4 right-4 text-xl font-bold text-white">高分推荐</h2>
+  </div>
+  <div class="p-5">
+    <p class="text-gray-600 text-sm mb-4 line-clamp-3">围绕口碑、观感和题材热度整理的高分向影片片单</p>
+    <ul class="space-y-2 text-sm text-gray-700">
+      <li><a href="./movie-0004.html" class="hover:text-amber-700 transition-colors">替身忠臣藏</a></li><li><a href="./movie-0012.html" class="hover:text-amber-700 transition-colors">今日世界夜生活</a></li><li><a href="./movie-0025.html" class="hover:text-amber-700 transition-colors">那就是声优</a></li><li><a href="./movie-0030.html" class="hover:text-amber-700 transition-colors">罪恶对决</a></li>
+    </ul>
+    <span class="mt-5 inline-flex px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white font-medium rounded-lg transition-colors">查看片单</span>
+  </div>
+</a><a href="./category-new-release.html" class="category-cover group soft-card rounded-xl overflow-hidden hover:shadow-xl transition-all transform hover:-translate-y-1">
+  <div class="relative overflow-hidden" style="padding-top:56.25%">
+    <img src="./1.jpg" alt="新片速看" class="absolute top-0 left-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <h2 class="absolute bottom-3 left-4 right-4 text-xl font-bold text-white">新片速看</h2>
+  </div>
+  <div class="p-5">
+    <p class="text-gray-600 text-sm mb-4 line-clamp-3">精选近年片库内容，适合查找更新鲜的电影与剧集</p>
+    <ul class="space-y-2 text-sm text-gray-700">
+      <li><a href="./movie-0001.html" class="hover:text-amber-700 transition-colors">法网狙击国语</a></li><li><a href="./movie-0009.html" class="hover:text-amber-700 transition-colors">双鱼陨石</a></li><li><a href="./movie-0016.html" class="hover:text-amber-700 transition-colors">良医第二季</a></li><li><a href="./movie-0017.html" class="hover:text-amber-700 transition-colors">神侦探大战摄青鬼</a></li>
+    </ul>
+    <span class="mt-5 inline-flex px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white font-medium rounded-lg transition-colors">查看片单</span>
+  </div>
+</a><a href="./category-word-of-mouth.html" class="category-cover group soft-card rounded-xl overflow-hidden hover:shadow-xl transition-all transform hover:-translate-y-1">
+  <div class="relative overflow-hidden" style="padding-top:56.25%">
+    <img src="./6.jpg" alt="口碑佳作" class="absolute top-0 left-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <h2 class="absolute bottom-3 left-4 right-4 text-xl font-bold text-white">口碑佳作</h2>
+  </div>
+  <div class="p-5">
+    <p class="text-gray-600 text-sm mb-4 line-clamp-3">收录剧情完整、评价较好的影片内容，便于按标签继续延展浏览</p>
+    <ul class="space-y-2 text-sm text-gray-700">
+      <li><a href="./movie-0006.html" class="hover:text-amber-700 transition-colors">恋爱研究所</a></li><li><a href="./movie-0022.html" class="hover:text-amber-700 transition-colors">新警察故事粤语版</a></li><li><a href="./movie-0034.html" class="hover:text-amber-700 transition-colors">闯入者</a></li><li><a href="./movie-0046.html" class="hover:text-amber-700 transition-colors">非你莫属</a></li>
+    </ul>
+    <span class="mt-5 inline-flex px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white font-medium rounded-lg transition-colors">查看片单</span>
+  </div>
+</a><a href="./category-story-drama.html" class="category-cover group soft-card rounded-xl overflow-hidden hover:shadow-xl transition-all transform hover:-translate-y-1">
+  <div class="relative overflow-hidden" style="padding-top:56.25%">
+    <img src="./24.jpg" alt="剧情精选" class="absolute top-0 left-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <h2 class="absolute bottom-3 left-4 right-4 text-xl font-bold text-white">剧情精选</h2>
+  </div>
+  <div class="p-5">
+    <p class="text-gray-600 text-sm mb-4 line-clamp-3">关注人物关系、情绪张力和故事完成度的片单内容</p>
+    <ul class="space-y-2 text-sm text-gray-700">
+      <li><a href="./movie-0024.html" class="hover:text-amber-700 transition-colors">桑迪顿 第二季</a></li><li><a href="./movie-0037.html" class="hover:text-amber-700 transition-colors">伊朗式分手</a></li><li><a href="./movie-0064.html" class="hover:text-amber-700 transition-colors">教父之祖</a></li><li><a href="./movie-0067.html" class="hover:text-amber-700 transition-colors">越狱第三季</a></li>
+    </ul>
+    <span class="mt-5 inline-flex px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white font-medium rounded-lg transition-colors">查看片单</span>
+  </div>
+</a><a href="./category-cinema-rank.html" class="category-cover group soft-card rounded-xl overflow-hidden hover:shadow-xl transition-all transform hover:-translate-y-1">
+  <div class="relative overflow-hidden" style="padding-top:56.25%">
+    <img src="./5.jpg" alt="影院热榜" class="absolute top-0 left-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <h2 class="absolute bottom-3 left-4 right-4 text-xl font-bold text-white">影院热榜</h2>
+  </div>
+  <div class="p-5">
+    <p class="text-gray-600 text-sm mb-4 line-clamp-3">以点播热度和内容吸引力组合整理的电影片库入口</p>
+    <ul class="space-y-2 text-sm text-gray-700">
+      <li><a href="./movie-0005.html" class="hover:text-amber-700 transition-colors">拯救电影院</a></li><li><a href="./movie-0007.html" class="hover:text-amber-700 transition-colors">江湖四霸王</a></li><li><a href="./movie-0008.html" class="hover:text-amber-700 transition-colors">重新安排</a></li><li><a href="./movie-0011.html" class="hover:text-amber-700 transition-colors">我们家的微幸福生活</a></li>
+    </ul>
+    <span class="mt-5 inline-flex px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white font-medium rounded-lg transition-colors">查看片单</span>
+  </div>
+</a><a href="./category-library-picks.html" class="category-cover group soft-card rounded-xl overflow-hidden hover:shadow-xl transition-all transform hover:-translate-y-1">
+  <div class="relative overflow-hidden" style="padding-top:56.25%">
+    <img src="./47.jpg" alt="片库收藏" class="absolute top-0 left-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+    <h2 class="absolute bottom-3 left-4 right-4 text-xl font-bold text-white">片库收藏</h2>
+  </div>
+  <div class="p-5">
+    <p class="text-gray-600 text-sm mb-4 line-clamp-3">从完整片库中持续沉淀的多类型影片合集</p>
+    <ul class="space-y-2 text-sm text-gray-700">
+      <li><a href="./movie-0047.html" class="hover:text-amber-700 transition-colors">圣诞星</a></li><li><a href="./movie-0058.html" class="hover:text-amber-700 transition-colors">好玩派对</a></li><li><a href="./movie-0061.html" class="hover:text-amber-700 transition-colors">凤凰号</a></li><li><a href="./movie-0063.html" class="hover:text-amber-700 transition-colors">用爱将心偷</a></li>
+    </ul>
+    <span class="mt-5 inline-flex px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white font-medium rounded-lg transition-colors">查看片单</span>
+  </div>
+</a>
+  </div>
+</section>
+</main>
+<footer class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-gray-300">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <div class="flex items-center space-x-2 mb-4">
+          <span class="site-logo-mark">影</span>
+          <h3 class="text-lg font-bold text-white">精选影片片单</h3>
+        </div>
+        <p class="text-sm leading-relaxed">精选热门与高分影片内容，覆盖电影、剧集、动画、综艺等多类型片库。</p>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold text-white mb-4">快速导航</h3>
+        <nav class="space-y-2 text-sm">
+          <a href="./index.html" class="block hover:text-amber-500 transition-colors">首页</a>
+          <a href="./categories.html" class="block hover:text-amber-500 transition-colors">分类总览</a>
+          <a href="./ranking.html" class="block hover:text-amber-500 transition-colors">排行榜</a>
+          <a href="./search.html" class="block hover:text-amber-500 transition-colors">搜索</a>
+        </nav>
+      </div>
+      <div>
+        <h3 class="text-lg font-semibold text-white mb-4">片单入口</h3>
+        <nav class="space-y-2 text-sm">
+          <a href="./category-featured-list.html" class="block hover:text-amber-500 transition-colors">精选片单</a>
+<a href="./category-hot-streaming.html" class="block hover:text-amber-500 transition-colors">热门点播</a>
+<a href="./category-top-rated.html" class="block hover:text-amber-500 transition-colors">高分推荐</a>
+<a href="./category-new-release.html" class="block hover:text-amber-500 transition-colors">新片速看</a>
+<a href="./category-word-of-mouth.html" class="block hover:text-amber-500 transition-colors">口碑佳作</a>
+<a href="./category-story-drama.html" class="block hover:text-amber-500 transition-colors">剧情精选</a>
+        </nav>
+      </div>
+    </div>
+    <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
+      <p>© 2026 精选影片片单. 高清电影片库</p>
+    </div>
+  </div>
+</footer>
+<script src="./assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

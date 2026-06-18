@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://vercelcn.com/ads-widget.js"></script>
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片分类总览-精选影片</title>
+    <meta name="description" content="整理精选影片合集与高分影片榜单，覆盖电影、剧集和视频相关页面内容。">
+    <meta name="keywords" content="精选影片合集,高分影片,影片排行榜,高清播放,热门影片,影片推荐,内容合集">
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="nav-wrap">
+            <a class="brand" href="./index.html" aria-label="精选影片">
+                <span class="brand-mark">▶</span>
+                <span class="brand-text">
+                    <strong>精选影片</strong>
+                    <small>高分影片排行榜</small>
+                </span>
+            </a>
+            <nav class="desktop-nav">
+                <a class="nav-link " href="./index.html">首页</a>
+                <a class="nav-link active" href="./categories.html">分类</a>
+                <a class="nav-link " href="./rankings.html">排行榜</a>
+                <a class="nav-link " href="./search.html">搜索</a>
+                <a class="nav-link" href="./featured-library.html">精选片库</a>
+                <a class="nav-link" href="./hot-library.html">热门片单</a>
+                <a class="nav-link" href="./score-library.html">高分推荐</a>
+                <a class="nav-link" href="./cinema-library.html">影院精选</a>
+            </nav>
+            <form class="top-search" action="./search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+            <button class="menu-toggle" type="button" aria-label="展开导航">☰</button>
+        </div>
+        <nav class="mobile-nav">
+            <a class="mobile-nav-link " href="./index.html">首页</a>
+            <a class="mobile-nav-link active" href="./categories.html">分类</a>
+            <a class="mobile-nav-link " href="./rankings.html">排行榜</a>
+            <a class="mobile-nav-link " href="./search.html">搜索</a>
+            <form class="mobile-search" action="./search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+                <button type="submit">搜索</button>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section class="sub-hero">
+            <div>
+                <span>Categories</span>
+                <h1>影片分类总览</h1>
+                <p>按频道浏览电影、剧集、动画、悬疑、喜剧、家庭与多地区影像内容。</p>
+            </div>
+        </section>
+        <section class="page-section">
+            <div class="category-grid large">
+                <a class="category-tile" href="./featured-library.html" style="background-image: url('./11.jpg')">
+                    <span class="tile-overlay"></span>
+                    <span class="tile-content">
+                        <strong>精选片库</strong>
+                        <em>甄选电影、剧集与热门视频内容，聚合多类型题材入口。</em>
+                    </span>
+                </a>
+                <a class="category-tile" href="./hot-library.html" style="background-image: url('./30.jpg')">
+                    <span class="tile-overlay"></span>
+                    <span class="tile-content">
+                        <strong>热门片单</strong>
+                        <em>汇集热播片名、口碑推荐与近期关注度较高的内容。</em>
+                    </span>
+                </a>
+                <a class="category-tile" href="./score-library.html" style="background-image: url('./4.jpg')">
+                    <span class="tile-overlay"></span>
+                    <span class="tile-content">
+                        <strong>高分推荐</strong>
+                        <em>围绕高分影片、经典片单与深度剧情内容整理。</em>
+                    </span>
+                </a>
+                <a class="category-tile" href="./cinema-library.html" style="background-image: url('./17.jpg')">
+                    <span class="tile-overlay"></span>
+                    <span class="tile-content">
+                        <strong>影院精选</strong>
+                        <em>覆盖故事片、类型片、动作片与院线质感作品。</em>
+                    </span>
+                </a>
+                <a class="category-tile" href="./drama-library.html" style="background-image: url('./13.jpg')">
+                    <span class="tile-overlay"></span>
+                    <span class="tile-content">
+                        <strong>剧集频道</strong>
+                        <em>整理长篇剧集、单元故事、家庭情感与职场题材内容。</em>
+                    </span>
+                </a>
+                <a class="category-tile" href="./world-library.html" style="background-image: url('./5.jpg')">
+                    <span class="tile-overlay"></span>
+                    <span class="tile-content">
+                        <strong>环球影像</strong>
+                        <em>收录不同地区影像故事，兼顾海外片单与华语佳作。</em>
+                    </span>
+                </a>
+                <a class="category-tile" href="./classic-library.html" style="background-image: url('./3.jpg')">
+                    <span class="tile-overlay"></span>
+                    <span class="tile-content">
+                        <strong>经典回看</strong>
+                        <em>面向经典、怀旧、年代与特色题材的片库频道。</em>
+                    </span>
+                </a>
+                <a class="category-tile" href="./new-library.html" style="background-image: url('./1.jpg')">
+                    <span class="tile-overlay"></span>
+                    <span class="tile-content">
+                        <strong>新片速递</strong>
+                        <em>聚合近年新片、热门新剧和新鲜题材内容。</em>
+                    </span>
+                </a>
+                <a class="category-tile" href="./story-library.html" style="background-image: url('./9.jpg')">
+                    <span class="tile-overlay"></span>
+                    <span class="tile-content">
+                        <strong>剧情长廊</strong>
+                        <em>以剧情表达、人物关系和情感张力为主的精选内容。</em>
+                    </span>
+                </a>
+                <a class="category-tile" href="./thrill-library.html" style="background-image: url('./14.jpg')">
+                    <span class="tile-overlay"></span>
+                    <span class="tile-content">
+                        <strong>悬疑焦点</strong>
+                        <em>聚焦悬疑、惊悚、犯罪、推理与高反转题材。</em>
+                    </span>
+                </a>
+                <a class="category-tile" href="./family-library.html" style="background-image: url('./10.jpg')">
+                    <span class="tile-overlay"></span>
+                    <span class="tile-content">
+                        <strong>家庭治愈</strong>
+                        <em>收录家庭、成长、爱情、美食与温暖治愈片单。</em>
+                    </span>
+                </a>
+                <a class="category-tile" href="./fantasy-library.html" style="background-image: url('./2.jpg')">
+                    <span class="tile-overlay"></span>
+                    <span class="tile-content">
+                        <strong>奇幻冒险</strong>
+                        <em>涵盖科幻、奇幻、动画、冒险和想象力题材内容。</em>
+                    </span>
+                </a>
+            </div>
+        </section>
+        <section class="page-section muted-section">
+            <div class="section-heading">
+                <span>Pick</span>
+                <h2>分类精选</h2>
+                <a href="./rankings.html">榜单入口</a>
+            </div>
+            <div class="movie-grid">
+                <article class="movie-card searchable-item" data-title="泪眼煞星" data-meta="2024 · 日本 · 电影 · 动作 / 犯罪 杀手 复仇 眼泪 都市传说 暴力美学 动作 犯罪 电影">
+                    <a class="card-cover" href="./movie-0011.html" aria-label="泪眼煞星">
+                        <img src="./11.jpg" alt="泪眼煞星" loading="lazy">
+                        <span class="card-shade"></span>
+                        
+                        <span class="card-play">▶</span>
+                    </a>
+                    <div class="card-body">
+                        <a class="card-title" href="./movie-0011.html">泪眼煞星</a>
+                        <p class="card-desc">传闻中的杀手每次行凶前都会流泪，一名女记者试图揭开他的真面目，却发现他流泪的原因比自己想象的要残酷得多。</p>
+                        <div class="card-meta">
+                            <span>2024</span>
+                            <span>日本</span>
+                        </div>
+                        <div class="card-tags"><span>杀手</span><span>复仇</span><span>眼泪</span></div>
+                    </div>
+                </article>
+                <article class="movie-card searchable-item" data-title="国家宝藏" data-meta="2025 · 中国大陆 · 电影 · 动作，冒险，悬疑 考古 文物回归 夺宝 历史谜团 动作 冒险 悬疑 电影">
+                    <a class="card-cover" href="./movie-0016.html" aria-label="国家宝藏">
+                        <img src="./16.jpg" alt="国家宝藏" loading="lazy">
+                        <span class="card-shade"></span>
+                        
+                        <span class="card-play">▶</span>
+                    </a>
+                    <div class="card-body">
+                        <a class="card-title" href="./movie-0016.html">国家宝藏</a>
+                        <p class="card-desc">故宫博物院在一次修复中，发现传国玉玺的印泥里，藏着一张指向“九州鼎”下落的地图。</p>
+                        <div class="card-meta">
+                            <span>2025</span>
+                            <span>中国大陆</span>
+                        </div>
+                        <div class="card-tags"><span>考古</span><span>文物回归</span><span>夺宝</span></div>
+                    </div>
+                </article>
+                <article class="movie-card searchable-item" data-title="难以置信的事实" data-meta="2025 · 美国 · 电影 · 悬疑科幻 时间循环 小镇怪谈 黑色幽默 反转 悬疑科幻 电影 美国">
+                    <a class="card-cover" href="./movie-0060.html" aria-label="难以置信的事实">
+                        <img src="./60.jpg" alt="难以置信的事实" loading="lazy">
+                        <span class="card-shade"></span>
+                        
+                        <span class="card-play">▶</span>
+                    </a>
+                    <div class="card-body">
+                        <a class="card-title" href="./movie-0060.html">难以置信的事实</a>
+                        <p class="card-desc">小镇上所有居民都梦见同一起谋杀案，而凶手正是镇上最受人爱戴的老警长。</p>
+                        <div class="card-meta">
+                            <span>2025</span>
+                            <span>美国</span>
+                        </div>
+                        <div class="card-tags"><span>时间循环</span><span>小镇怪谈</span><span>黑色幽默</span></div>
+                    </div>
+                </article>
+                <article class="movie-card searchable-item" data-title="我们和我们的山" data-meta="2023 · 中国大陆 · 剧集 · 剧情 / 乡村 乡村振兴 三代人 守护 剧情 乡村 剧集 中国大陆">
+                    <a class="card-cover" href="./movie-0067.html" aria-label="我们和我们的山">
+                        <img src="./67.jpg" alt="我们和我们的山" loading="lazy">
+                        <span class="card-shade"></span>
+                        
+                        <span class="card-play">▶</span>
+                    </a>
+                    <div class="card-body">
+                        <a class="card-title" href="./movie-0067.html">我们和我们的山</a>
+                        <p class="card-desc">一座即将被开发的大山，让离散多年的三代守山人重新聚首。</p>
+                        <div class="card-meta">
+                            <span>2023</span>
+                            <span>中国大陆</span>
+                        </div>
+                        <div class="card-tags"><span>乡村振兴</span><span>三代人</span><span>守护</span></div>
+                    </div>
+                </article>
+                <article class="movie-card searchable-item" data-title="赢家2017" data-meta="2026 · 中国大陆 · 电影 · 剧情, 悬疑, 科幻 金融操盘 时间循环 金融危机 道德抉择 高智商 剧情 悬疑 科幻">
+                    <a class="card-cover" href="./movie-0015.html" aria-label="赢家2017">
+                        <img src="./15.jpg" alt="赢家2017" loading="lazy">
+                        <span class="card-shade"></span>
+                        
+                        <span class="card-play">▶</span>
+                    </a>
+                    <div class="card-body">
+                        <a class="card-title" href="./movie-0015.html">赢家2017</a>
+                        <p class="card-desc">一位在2017年股灾中跳楼的基金经理，醒来后发现回到危机爆发前的一个月，但每一次他试图救赎，股市的崩盘都会以更惨烈的方式提前到来。</p>
+                        <div class="card-meta">
+                            <span>2026</span>
+                            <span>中国大陆</span>
+                        </div>
+                        <div class="card-tags"><span>金融操盘</span><span>时间循环</span><span>金融危机</span></div>
+                    </div>
+                </article>
+                <article class="movie-card searchable-item" data-title="黑礁第三季" data-meta="2010 · 日本 · 剧集 · 动作 / 犯罪 / 黑帮 暴力美学 枪战 佣兵 黑暗 动作 犯罪 黑帮 剧集">
+                    <a class="card-cover" href="./movie-0053.html" aria-label="黑礁第三季">
+                        <img src="./53.jpg" alt="黑礁第三季" loading="lazy">
+                        <span class="card-shade"></span>
+                        
+                        <span class="card-play">▶</span>
+                    </a>
+                    <div class="card-body">
+                        <a class="card-title" href="./movie-0053.html">黑礁第三季</a>
+                        <p class="card-desc">女仆杀手罗贝尔特为复仇踏上疯狂杀戮之路，洛克与巴拉莱卡被迫卷入这场毁灭性的漩涡。</p>
+                        <div class="card-meta">
+                            <span>2010</span>
+                            <span>日本</span>
+                        </div>
+                        <div class="card-tags"><span>暴力美学</span><span>枪战</span><span>佣兵</span></div>
+                    </div>
+                </article>
+                <article class="movie-card searchable-item" data-title="阿拉丁和神灯" data-meta="2020 · 法国 / 比利时 · 电影 · 喜剧 / 奇幻 / 冒险 解构经典 打工仔奇遇 法式幽默 反童话 喜剧 奇幻 冒险 电影">
+                    <a class="card-cover" href="./movie-0084.html" aria-label="阿拉丁和神灯">
+                        <img src="./84.jpg" alt="阿拉丁和神灯" loading="lazy">
+                        <span class="card-shade"></span>
+                        
+                        <span class="card-play">▶</span>
+                    </a>
+                    <div class="card-body">
+                        <a class="card-title" href="./movie-0084.html">阿拉丁和神灯</a>
+                        <p class="card-desc">巴黎的清洁工山姆捡到一盏神灯，里面的精灵告诉他：你不是王子，你只是用来给真阿拉丁挡灾的替身。</p>
+                        <div class="card-meta">
+                            <span>2020</span>
+                            <span>法国 / 比利时</span>
+                        </div>
+                        <div class="card-tags"><span>解构经典</span><span>打工仔奇遇</span><span>法式幽默</span></div>
+                    </div>
+                </article>
+                <article class="movie-card searchable-item" data-title="名侦探柯南:黑铁的鱼影" data-meta="2023 · 日本 · 电影 · 动画悬疑 柯南 黑衣组织 深海 潜艇 动画悬疑 电影 日本">
+                    <a class="card-cover" href="./movie-0093.html" aria-label="名侦探柯南:黑铁的鱼影">
+                        <img src="./93.jpg" alt="名侦探柯南:黑铁的鱼影" loading="lazy">
+                        <span class="card-shade"></span>
+                        
+                        <span class="card-play">▶</span>
+                    </a>
+                    <div class="card-body">
+                        <a class="card-title" href="./movie-0093.html">名侦探柯南:黑铁的鱼影</a>
+                        <p class="card-desc">柯南与黑衣组织在深海潜艇中展开决战，灰原哀的真实身份面临最终暴露。</p>
+                        <div class="card-meta">
+                            <span>2023</span>
+                            <span>日本</span>
+                        </div>
+                        <div class="card-tags"><span>柯南</span><span>黑衣组织</span><span>深海</span></div>
+                    </div>
+                </article>
+                <article class="movie-card searchable-item" data-title="帕高与魔法绘本" data-meta="2024 · 日本 · 电影 · 奇幻 / 家庭 绘本 穿越 治愈 记忆 想象力 奇幻 家庭 电影">
+                    <a class="card-cover" href="./movie-0055.html" aria-label="帕高与魔法绘本">
+                        <img src="./55.jpg" alt="帕高与魔法绘本" loading="lazy">
+                        <span class="card-shade"></span>
+                        
+                        <span class="card-play">▶</span>
+                    </a>
+                    <div class="card-body">
+                        <a class="card-title" href="./movie-0055.html">帕高与魔法绘本</a>
+                        <p class="card-desc">一个失去记忆的老人从图书馆偷走了一本绘本，书中的故事竟是他遗忘了一生的爱情。</p>
+                        <div class="card-meta">
+                            <span>2024</span>
+                            <span>日本</span>
+                        </div>
+                        <div class="card-tags"><span>绘本</span><span>穿越</span><span>治愈</span></div>
+                    </div>
+                </article>
+                <article class="movie-card searchable-item" data-title="餐馆小情歌" data-meta="2024 · 中国 · 电影 · 爱情 / 喜剧 美食 治愈 冤家变情侣 烟火气 爱情 喜剧 电影 中国">
+                    <a class="card-cover" href="./movie-0063.html" aria-label="餐馆小情歌">
+                        <img src="./63.jpg" alt="餐馆小情歌" loading="lazy">
+                        <span class="card-shade"></span>
+                        
+                        <span class="card-play">▶</span>
+                    </a>
+                    <div class="card-body">
+                        <a class="card-title" href="./movie-0063.html">餐馆小情歌</a>
+                        <p class="card-desc">一位冷酷的美食评论家，为了找回味觉，不得不天天去死对头厨师的小餐馆蹭饭。</p>
+                        <div class="card-meta">
+                            <span>2024</span>
+                            <span>中国</span>
+                        </div>
+                        <div class="card-tags"><span>美食</span><span>治愈</span><span>冤家变情侣</span></div>
+                    </div>
+                </article>
+                <article class="movie-card searchable-item" data-title="夜樱四重奏" data-meta="2024 · 日本 · 动画剧集 · 奇幻, 战斗, 青春 妖怪 城市传说 四人小队 热血 奇幻 战斗 青春 动画剧集">
+                    <a class="card-cover" href="./movie-0091.html" aria-label="夜樱四重奏">
+                        <img src="./91.jpg" alt="夜樱四重奏" loading="lazy">
+                        <span class="card-shade"></span>
+                        
+                        <span class="card-play">▶</span>
+                    </a>
+                    <div class="card-body">
+                        <a class="card-title" href="./movie-0091.html">夜樱四重奏</a>
+                        <p class="card-desc">东京的夜樱树下藏着通往异界的大门，四个被樱花瓣选中的高中生，必须阻止两个世界的融合。</p>
+                        <div class="card-meta">
+                            <span>2024</span>
+                            <span>日本</span>
+                        </div>
+                        <div class="card-tags"><span>妖怪</span><span>城市传说</span><span>四人小队</span></div>
+                    </div>
+                </article>
+                <article class="movie-card searchable-item" data-title="疯魔美女" data-meta="2025 · 泰国 · 电影 · 恐怖, 惊悚 整容 复仇 血腥 心理扭曲 因果报应 恐怖 惊悚 电影">
+                    <a class="card-cover" href="./movie-0095.html" aria-label="疯魔美女">
+                        <img src="./95.jpg" alt="疯魔美女" loading="lazy">
+                        <span class="card-shade"></span>
+                        
+                        <span class="card-play">▶</span>
+                    </a>
+                    <div class="card-body">
+                        <a class="card-title" href="./movie-0095.html">疯魔美女</a>
+                        <p class="card-desc">七位整容过度的网红被困在一座无人岛，她们引以为傲的身体部位开始疯狂反噬。</p>
+                        <div class="card-meta">
+                            <span>2025</span>
+                            <span>泰国</span>
+                        </div>
+                        <div class="card-tags"><span>整容</span><span>复仇</span><span>血腥</span></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div>
+                <div class="footer-brand"><span>▶</span>精选影片</div>
+                <p>整理精选影片合集与高分影片榜单，覆盖电影、剧集和视频相关页面内容。</p>
+            </div>
+            <div>
+                <h3>频道入口</h3>
+                <div class="footer-links">
+                    <a href="./featured-library.html">精选片库</a><a href="./hot-library.html">热门片单</a><a href="./score-library.html">高分推荐</a><a href="./cinema-library.html">影院精选</a><a href="./drama-library.html">剧集频道</a><a href="./world-library.html">环球影像</a><a href="./classic-library.html">经典回看</a><a href="./new-library.html">新片速递</a>
+                </div>
+            </div>
+            <div>
+                <h3>快速导航</h3>
+                <div class="footer-links">
+                    <a href="./index.html">首页</a>
+                    <a href="./categories.html">全部分类</a>
+                    <a href="./rankings.html">排行榜</a>
+                    <a href="./search.html">搜索</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 精选影片. All Rights Reserved.</div>
+    </footer>
+    <script src="./assets/site.js"></script>
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
